@@ -1,9 +1,23 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const pal = word.split("").reverse().join();
+  if (pal === word){
+    return true;
+  }else{
+    return false;
+  }
 }
+
+isPalindrome("racecar");
 
 /* 
   Add your pseudocode here
+  // function to check palindromes
+  if word is palindrome
+  return true
+  else 
+  return false
+  call function palindrome
 */
 
 /*
